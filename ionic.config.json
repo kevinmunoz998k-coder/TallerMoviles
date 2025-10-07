@@ -1,0 +1,7 @@
+{
+  "name": "TallerCalculadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
