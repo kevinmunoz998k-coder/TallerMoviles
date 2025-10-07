@@ -1,0 +1,62 @@
+$primary-color: #80deea;
+$hover-color: #26c6da;
+$background-color: #f7f7f7;
+$input-bg-color: #dfdddd;
+$card-bg-color: #f0f4f8;
+$text-color: #333;
+$card-header-color: #4055c9;
+
+ion-content {
+  background-color: $background-color;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  color: $card-header-color;
+}
+
+.input-item {
+  margin-bottom: 16px;
+}
+
+.input-field {
+  background-color: $input-bg-color;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+
+ion-button {
+  --border-color: $primary-color;
+  --color: $primary-color;
+  --background: #9fafdb;
+  border-radius: 8px;
+  margin-top: 12px;
+  width: 100%;
+
+  &:hover {
+    --border-color: $hover-color;
+    --color: $hover-color;
+  }
+}
+
+.result-card {
+  background-color: $card-bg-color;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+ion-card-header {
+  color: $card-header-color;
+}
+
+ion-card-content {
+  font-size: 18px;
+  color: $text-color;
+}
